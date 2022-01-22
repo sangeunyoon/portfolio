@@ -1,57 +1,133 @@
 <!DOCTYPE html>
 
 <html>
-<head>
- <meta lang = "en">
- <meta charset ="utf-8">
- <link rel="stylesheet" type="text/css" href="style.css">
-  <title>San Yoon | Blackcodher student </title>
-  
+  <head>
+    <meta lang="en"/>
+    <meta name="viewport">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
 
-</head>
-<body>
-   
+   <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Licorice&family=Lobster&family=Lobster+Two:wght@700&family=Urbanist:wght@100&display=swap");
+  </style>
+    <title>San Yoon | Blackcodher student</title>
+  </head>
+  <body>
     <!-- Page header -->
     <header>
-
-        <nav>
-            <ul>
-                <li><a href="https://www.youtube.com" target="_blank">  About </a></li>
-                <li><a href="#"> Work </a></li>
-                <li><a href="#"> Contact </a></li>
+      
+        <nav class="navbar">
+            <ul class="nav_list">
+                <li class="nav_items"><a href="#home"> Home</a></li>
+                <li class="nav_items"><a href="#about"> About me</a></li>
+                <li class="nav_items"><a href="#projects"> My projects </a></li>
+                <li class="nav_items"><a href="#timeline"> Timeline</a></li>
+                <li class="nav_items"><a href="#contact"> Contact </a></li>
             </ul>
          </nav>
-
-       <h1>"Hello! I am" <span class="green-text" id="san"><strong>Sangeun Yoon</strong></span> </h1>
-
-    
-       
-
     </header>
-    <br/>
-
-    <main>
-    <section class="green-text">Hello,My name is San and I am full time mum and a bootcamp student at BlackCodher.
-        I love learning new things,and interested to be a front-end developer.     
-    </section>
-   
-    <br/>
-
-    <img src="https://media-exp1.licdn.com/dms/image/C5603AQGh-vytqjBN5w/profile-displayphoto-shrink_200_200/0/1546867151625?e=1645660800&v=beta&t=LPNejLj-DgcxkKQnIa0Zbe-tAebI6PEmhYTHEpTUIkc" alt="my picture" width="200"  height="200">
-
-    <br/>
-
-    <h2>Here are some project that I am going to do </h2>
-
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</main>
-<footer>
     
-</footer>
-</body>
-</html>
+    <!--Introduction-->
+    <section class="intro" id="home">
+    <div class="fadeup-enter-done" style="transition-delay: 100ms;">
+      <h1>Hi, my name is </h1>
+    </div>
+    <div class="fadeup-enter-done" style="transition-delay: 200ms;">
+    <h2 class="big-heading">Sangeun Yoon.</h2>  
+    <div class="fadeup-enter-done" style="transition-delay: 300ms;">
+    <h3 class="big-heading">I am a creative front-end developer</h3>
+    </div>
+    <div class="fadeup-enter-done" style="transition-delay: 400ms;">
+      <p>"I create the parts to ensure that website visitors can easily interact with the page. 
+      I always ensure websites are user-friendly, fast-loading and attractive. 
+      I also make sure all users can operate websites successfully.
+      I test sites to make sure I work with different browsers, various operating systems and different devices. 
+      I follow accessibility best practices so people with disabilities can use their websites."
+      </p>
+      </div>
+    </section>
+      <hr />
+      <!--About me-->
 
+    <section id="about" class="">
+      <h2 class="numbered-heading">
+        
+        "About Me"
+  
+      </h2>
+      <div class="inner">
+      <div>
+     <p>
+       "Hello! My name is Sangeun and I enjoy creating things that I live on internet. 
+       My currently focus is on creating engaging, accessible & performant interfaces for human"
+    </p>
+    <p>Here are a few technologies I have been working with recently, and will work with BlackCodher</p>
+   </div>
+   <ul class="skill-list">
+     <li> "HTML"</li>
+     <li> "CSS"</li>
+     <li> "JavaScript"</li>
+     <li> "React"</li>
+   </ul>
+  </div>  
+      <div class="my-picture">
+         <img
+          class="headshot"
+          src="https://media-exp1.licdn.com/dms/image/C5603AQGh-vytqjBN5w/profile-displayphoto-shrink_200_200/0/1546867151625?e=1645660800&v=beta&t=LPNejLj-DgcxkKQnIa0Zbe-tAebI6PEmhYTHEpTUIkc"
+          alt="headshot"
+          width="250"
+          height="250"
+          style="object-fit: cover; opacity: 1;"
+        />
+      </div>
+    </section>
+      <br />
+ <!--Here are my projects-->
+ <section id="projects"></section>
+      <h2 class="numbered-heading">Here are some projects that I am working on.</h2>
+      <ul class="projects">
+        <li>JavaScript group project</li>
+        <li>React project</li>
+        <li>Node project</li>
+        <li>MongoDB project</li>
+        <li>Personal project</li>
+      </ul>
+    </section>
+<!--timeline-->
+<section class="timeline"></section>
+      <h3>San's Timeline</h3>
+
+      <ol class="timeline">
+        <li>2011-finished School, majored in Enligh</li>
+        <li>2011-2017-Worked as an English teacher</li>
+        <li>2017-Moved to England</li>
+        <li>2017-Part time worked at Holister in Trafford Centre</li>
+        <li>2018-started working in Booking.com</li>
+        <li>2021-joined the Black Codher Bootcamp</li>
+        <li>
+          2022-Been to 25 contries so far,and still want to explore more!!
+        </li>
+      </ol>
+    </section>
+  
+    <!-- <footer>
+      <ul class="social-media">
+        <li>instagram</li>
+        <li>linked-in</li>
+        <li>Github</li>
+      </ul>
+    </footer> -->
+  </body>
+  <footer class="footer">
+    <div class="container">
+      <nav class="pull-left"></nav>
+    <ul>
+      <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/cherryblossom_se/" target="_blank"></a></li>
+      <li><i class="fab fa-linkedin-in"></i></i><a href="https://www.linkedin.com/in/sangeunyoon/" target="_blank"></a></li>
+      <li><i class="fab fa-github"></i></i></li><a href="https://github.com/sangeunyoon/portfolio" target="_blank"></a>
+    </ul>
+   
+  </div>
+  </footer>
+</html>
