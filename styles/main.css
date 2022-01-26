@@ -29,8 +29,8 @@ body{
 #profile-image{
     border-radius: 10px; 
    box-shadow: 0 8px 12px rgba(132, 124, 108, 0.1);
-    width:25em;
-    height: 25em;
+    width:20em;
+    height: 20em;
     cursor: pointer;
 }
 #profile-image:hover{
@@ -48,4 +48,11 @@ opacity: 0.5;
 
 @media only screen and(min-width: 900px) {
    
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
 }
