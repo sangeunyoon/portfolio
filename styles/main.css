@@ -5,7 +5,7 @@
 
 body{
     font-family: cursive;
-    background:repeating-linear-gradient(40deg,#FFCCCC,#CCFFFF);
+    background:repeating-linear-gradient(50deg,#13298b,#4f8ec2,#fdc0ee);
     font-size: 1em;
     padding:1em;
     
@@ -24,14 +24,17 @@ body{
     list-style: none;
     justify-content: space-between;
     padding: 20px;
+
 }
 
 #profile-image{
     border-radius: 10px; 
    box-shadow: 0 8px 12px rgba(132, 124, 108, 0.1);
-    width:20em;
-    height: 20em;
+    width: 270px;
+    height: 270px;
     cursor: pointer;
+    border-color:cadetblue;
+
 }
 #profile-image:hover{
 padding-top: -2em;
